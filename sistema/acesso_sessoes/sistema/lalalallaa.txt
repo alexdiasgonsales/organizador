@@ -1,0 +1,57 @@
+﻿-13:     ->    ...           -> campus já cadastrado!
+-12:     ->    ...           -> curso já cadastrado! 
+-1:       ->    ...           -> erros banco                       
+10:	0 -> novo usuario -> mostra cad geral               ok
+11:	1 -> novo usuario -> mostra cad especifico          ok
+12:	   ->    ...           -> adiciona novo curso	             ok
+13:	   ->    ...           -> adiciona novo campus          ok
+40:	2 -> novo usuario -> login                               ok
+
+20:	4 -> é usuario -> mostra solic. de senha             ok 
+21:	5 -> é usuario -> senha errada:   alert             
+22:	6 -> é usuario -> senha certa:     mostra cad especifico
+40: 	2 -> é usuario -> login
+
+30: 	7 -> é papel -> mensagem de erro: login.php
+CADASTRO:
+## ver a questão de não ter restrição em selecionar primeiro a instituição
+## campos do form preenchidos NAO EDITÁVEIS!!!!!
+HOME
+- orientador: pode se vincular a 1 ou mais campus
+- autor pode se vincular a mais locais de estudo
+###o usuario cadastra sua instituição inicialmente e depois pode editar(adicionar outras ou remover) 
+
+
+
+arquivos: cadastroF
+cadastro_execF
+cadastro_opF
+
+
+
+
+- dados específicos dos usuarios -
+Autor:
+	- instiuição (OBRIG.)
+	- campus (OBRIG.)
+	- curso (OBRIG.)
+Ouvinte
+	- instituição (OPC.)
+	- campus (OPC.)
+	- curso (OPC.)
+	- tipo ouvinte (OBRIG.)
+	- outro (OPC.)
+	- EMPRESA (OPC.)
+Voluntario
+	- instiuição (OBRIG.)
+	- campus (OBRIG.)
+	- curso (OBRIG.)
+Orientador
+	- instiuição (OBRIG.)
+	- campus (OBRIG.)
+	- tipo servidor (OBRIG.)
+Avaliador
+	- instiuição (OBRIG.)
+	- campus (OBRIG.)
+	- tipo servidor (OBRIG.)
+	- nivel formação (OBRIG.)
